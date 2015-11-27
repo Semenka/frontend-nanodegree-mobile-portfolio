@@ -71,3 +71,15 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+
+Optimization:
+1)Index.html
+Size of the biggest image decreased
+All images changed to *.png and local files
+2 css moved to 1 file
+Java scripts pun at the end
+
+2)pizza.html
+The numer of dynamic pizzas generated has decreased to 20
+Modified in css   backface-visibility: hidden;
