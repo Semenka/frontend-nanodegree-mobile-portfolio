@@ -83,3 +83,10 @@ Java scripts pun at the end
 2)pizza.html
 The numer of dynamic pizzas generated has decreased to 20
 Modified in css   backface-visibility: hidden;
+
+main.js: all functions in strict mode
+document.getElementById() used instead of querySelector()
+variables in function changePizzaSizes(size) simplified and put out of the cycle
+Variables created outside the loop
+
+style.css: vendore prefixes have been added
