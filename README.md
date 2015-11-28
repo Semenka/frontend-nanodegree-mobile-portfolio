@@ -1,3 +1,9 @@
+##How to run the project
+1. Got to my Github repository: https://github.com/Semenka/frontend-nanodegree-mobile-portfolio.git
+2. Download repository
+3. Open file index.html
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -21,9 +27,9 @@ Some useful tips to help you get started:
 1. Open a browser and visit localhost:8080
 1. Download and install [ngrok](https://ngrok.com/) to make your local server accessible remotely.
 
-  ``` bash
+  ```bash
   $> cd /path/to/your-project-folder
-  $> ngrok 8080
+  $> ./ngrok http 8080
   ```
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
@@ -74,6 +80,7 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 
 
 Optimization:
+
 1)Index.html
 Size of the biggest image decreased
 All images changed to *.png and local files
@@ -84,9 +91,11 @@ Java scripts pun at the end
 The numer of dynamic pizzas generated has decreased to 20
 Modified in css   backface-visibility: hidden;
 
-main.js: all functions in strict mode
+3)main.js
+all functions in strict mode
 document.getElementById() used instead of querySelector()
 variables in function changePizzaSizes(size) simplified and put out of the cycle
 Variables created outside the loop
 
-style.css: vendore prefixes have been added
+4) style.css: vendore prefixes have been added
+crititical css: critical_path.css has been generated with https://jonassebastianohlsson.com/criticalpathcssgenerator/
